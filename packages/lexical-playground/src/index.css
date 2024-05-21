@@ -733,12 +733,12 @@ i.page-break,
 }
 
 .dropdown .item {
-  margin: 0 8px 0 8px;
-  padding: 8px;
+  margin: 0 1em 0 1em;
+  padding: 0.5em;
   color: #050505;
   cursor: pointer;
-  line-height: 16px;
-  font-size: 15px;
+  line-height: 1em;
+  font-size: 1.75em;
   display: flex;
   align-content: center;
   flex-direction: row;
@@ -747,7 +747,7 @@ i.page-break,
   background-color: #fff;
   border-radius: 8px;
   border: 0;
-  max-width: 250px;
+  max-width: 12em;
   min-width: 100px;
 }
 
@@ -1443,7 +1443,7 @@ button.action-button:disabled {
   border-top-right-radius: 10px;
   vertical-align: middle;
   overflow: auto;
-  height: 36px;
+  height: 6em;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -1473,8 +1473,8 @@ button.toolbar-item.spaced {
 button.toolbar-item i.format {
   background-size: contain;
   display: inline-block;
-  height: 18px;
-  width: 18px;
+  height: 2.5em;
+  width: 2.5em;
   vertical-align: -0.25em;
   display: flex;
   opacity: 0.6;
@@ -1501,7 +1501,7 @@ button.toolbar-item.active i {
 
 .toolbar-item.font-family .text {
   display: block;
-  max-width: 40px;
+  max-width: 10em;
 }
 
 .toolbar .code-language {
@@ -1512,7 +1512,7 @@ button.toolbar-item.active i {
   display: flex;
   line-height: 20px;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 2em;
   color: #777;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -1523,8 +1523,8 @@ button.toolbar-item.active i {
 
 .toolbar .toolbar-item .icon {
   display: flex;
-  width: 20px;
-  height: 20px;
+  width: 3em;
+  height: 3em;
   user-select: none;
   margin-right: 8px;
   line-height: 16px;

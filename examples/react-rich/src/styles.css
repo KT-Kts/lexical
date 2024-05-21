@@ -355,8 +355,8 @@ pre::-webkit-scrollbar-thumb {
 .toolbar button.toolbar-item i.format {
   background-size: contain;
   display: inline-block;
-  height: 18px;
-  width: 18px;
+  height: 2.5em;
+  width: 2.5em;
   margin-top: 2px;
   vertical-align: -0.25em;
   display: flex;
@@ -390,7 +390,7 @@ pre::-webkit-scrollbar-thumb {
   line-height: 20px;
   width: 200px;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 2em;
   color: #777;
   text-overflow: ellipsis;
   width: 70px;
@@ -401,8 +401,8 @@ pre::-webkit-scrollbar-thumb {
 
 .toolbar .toolbar-item .icon {
   display: flex;
-  width: 20px;
-  height: 20px;
+  width: 3em;
+  height: 3em;
   user-select: none;
   margin-right: 8px;
   line-height: 16px;
