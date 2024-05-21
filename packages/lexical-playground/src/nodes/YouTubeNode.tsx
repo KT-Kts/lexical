@@ -47,8 +47,8 @@ function YouTubeComponent({
       format={format}
       nodeKey={nodeKey}>
       <iframe
-        width="560"
-        height="315"
+        width="1920"
+        height="1080"
         src={`https://www.youtube-nocookie.com/embed/${videoID}`}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -111,8 +111,8 @@ export class YouTubeNode extends DecoratorBlockNode {
   exportDOM(): DOMExportOutput {
     const element = document.createElement('iframe');
     element.setAttribute('data-lexical-youtube', this.__id);
-    element.setAttribute('width', '560');
-    element.setAttribute('height', '315');
+    element.setAttribute('width', '1920');
+    element.setAttribute('height', '1080');
     element.setAttribute(
       'src',
       `https://www.youtube-nocookie.com/embed/${this.__id}`,

@@ -53,10 +53,10 @@ test.describe('BlockWithAlignableContents', () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
               frameborder="0"
-              height="315"
+              height="1080"
               src="${YOUTUBE_SAMPLE_URL}"
               title="YouTube video"
-              width="560"></iframe>
+              width="1920"></iframe>
           </div>
         </div>
         <p class="PlaygroundEditorTheme__paragraph"><br /></p>
@@ -86,10 +86,10 @@ test.describe('BlockWithAlignableContents', () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
               frameborder="0"
-              height="315"
+              height="1920"
               src="${YOUTUBE_SAMPLE_URL}"
               title="YouTube video"
-              width="560"></iframe>
+              width="1080"></iframe>
           </div>
         </div>
         <p class="PlaygroundEditorTheme__paragraph"><br /></p>
@@ -114,10 +114,10 @@ test.describe('BlockWithAlignableContents', () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
               frameborder="0"
-              height="315"
+              height="1080"
               src="${YOUTUBE_SAMPLE_URL}"
               title="YouTube video"
-              width="560"></iframe>
+              width="1920"></iframe>
           </div>
         </div>
         <p class="PlaygroundEditorTheme__paragraph" style="text-align: center">

@@ -885,10 +885,10 @@ test.describe('CopyAndPaste', () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
               frameborder="0"
-              height="315"
+              height="1080"
               src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
               title="YouTube video"
-              width="560"></iframe>
+              width="1920"></iframe>
           </div>
         </div>
         <div contenteditable="false" data-lexical-decorator="true">
@@ -897,10 +897,10 @@ test.describe('CopyAndPaste', () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen=""
               frameborder="0"
-              height="315"
+              height="1080"
               src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
               title="YouTube video"
-              width="560"></iframe>
+              width="1920"></iframe>
           </div>
         </div>
         <div
