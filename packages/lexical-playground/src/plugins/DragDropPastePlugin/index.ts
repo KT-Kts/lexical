@@ -21,6 +21,7 @@ const ACCEPTABLE_IMAGE_TYPES = [
   'image/gif',
   'image/webp',
 ];
+const ACCEPTABLE_VIDEO_TYPES = ['video/mp4'];
 
 export default function DragDropPaste(): null {
   const [editor] = useLexicalComposerContext();
@@ -31,10 +32,18 @@ export default function DragDropPaste(): null {
         (async () => {
           const filesResult = await mediaFileReader(
             files,
-            [ACCEPTABLE_IMAGE_TYPES].flatMap((x) => x),
+            [ACCEPTABLE_IMAGE_TYPES.concat(ACCEPTABLE_VIDEO_TYPES)].flatMap(
+              (x) => x,
+            ),
           );
           for (const {file, result} of filesResult) {
             if (isMimeType(file, ACCEPTABLE_IMAGE_TYPES)) {
+              //TODO:画面アップ
+              editor.dispatchCommand(INSERT_IMAGE_COMMAND, {
+                altText: file.name,
+                src: result,
+              });
+            } else if (isMimeType(file, ACCEPTABLE_VIDEO_TYPES)) {
               editor.dispatchCommand(INSERT_IMAGE_COMMAND, {
                 altText: file.name,
                 src: result,

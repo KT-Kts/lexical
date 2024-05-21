@@ -124,6 +124,7 @@
   table-layout: fixed;
   width: max-content;
   margin: 30px 0;
+  max-width: 1920px;
 }
 .PlaygroundEditorTheme__tableSelection *::selection {
   background-color: transparent;
