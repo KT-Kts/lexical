@@ -58,7 +58,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -126,7 +126,7 @@ test.describe('Images', () => {
                   src="${SAMPLE_IMAGE_URL}"
                   alt="Yellow flower in tilt shift lens"
                   draggable="false"
-                  style="height: inherit; max-width: 500px; width: inherit;"
+                  style="height: inherit;  width: inherit;"
                   class="focused draggable" />
               </div>
               <div>
@@ -178,7 +178,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -240,7 +240,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <span
@@ -252,7 +252,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -280,7 +280,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -331,7 +331,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <span
@@ -343,7 +343,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -373,7 +373,7 @@ test.describe('Images', () => {
                 src="${SAMPLE_IMAGE_URL}"
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -418,7 +418,7 @@ test.describe('Images', () => {
                 src="https://lexical.dev/img/logo.svg"
                 alt="lexical logo"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <span
@@ -430,7 +430,7 @@ test.describe('Images', () => {
                 src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAAagAwAEAAAAAQAAAAcAAAAA/8IAEQgABwAGAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAMCBAEFAAYHCAkKC//EAMMQAAEDAwIEAwQGBAcGBAgGcwECAAMRBBIhBTETIhAGQVEyFGFxIweBIJFCFaFSM7EkYjAWwXLRQ5I0ggjhU0AlYxc18JNzolBEsoPxJlQ2ZJR0wmDShKMYcOInRTdls1V1pJXDhfLTRnaA40dWZrQJChkaKCkqODk6SElKV1hZWmdoaWp3eHl6hoeIiYqQlpeYmZqgpaanqKmqsLW2t7i5usDExcbHyMnK0NTV1tfY2drg5OXm5+jp6vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAQIAAwQFBgcICQoL/8QAwxEAAgIBAwMDAgMFAgUCBASHAQACEQMQEiEEIDFBEwUwIjJRFEAGMyNhQhVxUjSBUCSRoUOxFgdiNVPw0SVgwUThcvEXgmM2cCZFVJInotIICQoYGRooKSo3ODk6RkdISUpVVldYWVpkZWZnaGlqc3R1dnd4eXqAg4SFhoeIiYqQk5SVlpeYmZqgo6SlpqeoqaqwsrO0tba3uLm6wMLDxMXGx8jJytDT1NXW19jZ2uDi4+Tl5ufo6ery8/T19vf4+fr/2wBDAAIDAwMEAwQFBQQGBgYGBggIBwcICA0JCgkKCQ0TDA4MDA4MExEUEQ8RFBEeGBUVGB4jHRwdIyolJSo1MjVFRVz/2wBDAQIDAwMEAwQFBQQGBgYGBggIBwcICA0JCgkKCQ0TDA4MDA4MExEUEQ8RFBEeGBUVGB4jHRwdIyolJSo1MjVFRVz/2gAMAwEAAhEDEQAAAfBeXfV/i9n/2gAIAQEAAQUCmlT7p//aAAgBAxEBPwGWbIKo/wBmP+0f/9oACAECEQE/AYYoHddn7pf7V//aAAgBAQAGPwKFaUpWtZJJVUl//8QAMxABAAMAAgICAgIDAQEAAAILAREAITFBUWFxgZGhscHw0RDh8SAwQFBgcICQoLDA0OD/2gAIAQEAAT8hFyPFTveHPBl//9oADAMBAAIRAxEAABCL/8QAMxEBAQEAAwABAgUFAQEAAQEJAQARITEQQVFhIHHwkYGhsdHB4fEwQFBgcICQoLDA0OD/2gAIAQMRAT8QYOAdB9nP5t//2gAIAQIRAT8QEWh51X58fxf/2gAIAQEAAT8QJfU4BLBcKyeUzf/Z"
                 alt="a pretty yellow flower :)"
                 draggable="false"
-                style="height: inherit; max-width: 500px; width: inherit;" />
+                style="height: inherit;  width: inherit;" />
             </div>
           </span>
           <br />
@@ -487,7 +487,7 @@ test.describe('Images', () => {
                   alt="Yellow flower in tilt shift lens"
                   draggable="false"
                   src="${SAMPLE_IMAGE_URL}"
-                  style="height: inherit; max-width: 500px; width: inherit" />
+                  style="height: inherit;  width: inherit" />
               </div>
             </span>
             <br />
@@ -523,7 +523,7 @@ test.describe('Images', () => {
                   alt="Yellow flower in tilt shift lens"
                   draggable="false"
                   src="${SAMPLE_IMAGE_URL}"
-                  style="height: inherit; max-width: 500px; width: inherit" />
+                  style="height: inherit;  width: inherit" />
               </div>
             </span>
             <span data-lexical-text="true">World</span>
@@ -571,7 +571,7 @@ test.describe('Images', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <br />
@@ -654,7 +654,7 @@ test.describe('Images', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <br />
@@ -674,7 +674,7 @@ test.describe('Images', () => {
                 alt="Daylight fir trees forest glacier green high ice landscape"
                 draggable="false"
                 src="${SAMPLE_LANDSCAPE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <br />
@@ -727,7 +727,7 @@ test.describe('Images', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <span data-lexical-text="true">&lt;- it works!</span>
@@ -779,7 +779,7 @@ test.describe('Images', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <br />

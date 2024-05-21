@@ -249,7 +249,7 @@ test.describe('Toolbar', () => {
                 class="focused draggable"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
             <div>
               <button class="image-caption-button">Add Caption</button>
@@ -285,7 +285,7 @@ test.describe('Toolbar', () => {
                 class="focused draggable"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
             <div>
               <button class="image-caption-button">Add Caption</button>

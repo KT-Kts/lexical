@@ -1332,7 +1332,7 @@ test.describe('Tables', () => {
                       alt="Yellow flower in tilt shift lens"
                       draggable="false"
                       src="${SAMPLE_IMAGE_URL}"
-                      style="height: inherit; max-width: 500px; width: inherit" />
+                      style="height: inherit;  width: inherit" />
                   </div>
                 </span>
                 <span data-lexical-text="true">&lt;- it works!</span>

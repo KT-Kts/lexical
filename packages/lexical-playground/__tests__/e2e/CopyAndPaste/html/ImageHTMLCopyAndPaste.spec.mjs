@@ -52,7 +52,7 @@ test.describe('HTML Image CopyAndPaste', () => {
                 alt="file"
                 draggable="false"
                 src="${LEXICAL_IMAGE_BASE64}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <span data-lexical-text="true">inline image</span>
@@ -87,7 +87,7 @@ test.describe('HTML Image CopyAndPaste', () => {
                 alt="file"
                 draggable="false"
                 src="${LEXICAL_IMAGE_BASE64}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <span
@@ -99,7 +99,7 @@ test.describe('HTML Image CopyAndPaste', () => {
                 alt="file"
                 draggable="false"
                 src="${LEXICAL_IMAGE_BASE64}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <br />

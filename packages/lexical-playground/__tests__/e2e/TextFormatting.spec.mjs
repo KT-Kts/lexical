@@ -1145,7 +1145,7 @@ test.describe('TextFormatting', () => {
                   class="focused"
                   draggable="false"
                   src="${SAMPLE_IMAGE_URL}"
-                  style="height: inherit; max-width: 500px; width: inherit" />
+                  style="height: inherit;  width: inherit" />
               </div>
             </span>
             <span data-lexical-text="true">BC</span>
@@ -1170,7 +1170,7 @@ test.describe('TextFormatting', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <strong
@@ -1199,7 +1199,7 @@ test.describe('TextFormatting', () => {
                 alt="Yellow flower in tilt shift lens"
                 draggable="false"
                 src="${SAMPLE_IMAGE_URL}"
-                style="height: inherit; max-width: 500px; width: inherit" />
+                style="height: inherit;  width: inherit" />
             </div>
           </span>
           <span data-lexical-text="true">BC</span>
